@@ -183,7 +183,7 @@ body.loaded { overflow: visible; }
   #TYPOGRAPHY
 \*-----------------------------------*/
 
-.headline-lg { font-size: var(--fs-45); }
+.headline-lg { font-size: 50px; }
 
 .headline-md { font-size: var(--fs-38); }
 

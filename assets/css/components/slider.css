@@ -15,7 +15,6 @@
   align-items: center;
   gap: 30px;
   overflow-x: auto;
-  height: 90px;
   scroll-snap-type: inline mandatory;
 }
 

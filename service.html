@@ -9,9 +9,9 @@
   <!-- 
     - primary meta tags
   -->
-  <title>Ejovwoke | Services</title>
-  <meta name="title" content="Ejovwoke | Services">
-
+  <title>Ejovwoke| Services</title>
+  <meta name="title" content="Annie | Services">
+  <meta name="description" content="This is a personal portfolio website">
 
   <!-- 
     - favicon
@@ -20,7 +20,9 @@
 
   <!-- 
     - google font link
+
   -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
@@ -31,11 +33,244 @@
   <link rel="stylesheet" href="./assets/css/require.css">
   <link rel="stylesheet" href="./assets/css/pages/service.css">
 
-
 </head>
 
 <body>
-  
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logos.png" width="151" height="28" alt="Annie home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="./index.html" class="label-lg navbar-link has-after">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="label-lg navbar-link has-after active">Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./portfolio.html" class="label-lg navbar-link has-after">Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./blog.html" class="label-lg navbar-link has-after">Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./contact.html" class="label-lg navbar-link has-after">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="./contact.html" class="btn btn-primary">Contact Now</a>
+
+      <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service has-bg-image" aria-labelledby="service-label"
+        style="background-image: url('./assets/images/service-bg.png')">
+        <div class="container">
+
+          <h2 class="section-title headline-md text-center" id="service-label">My Services</h2>
+
+          <ul class="service-list">
+
+            <li class="card-container">
+              <div class="card card-md" style="background-color: hsl(76, 39%, 72%)">
+
+                <div class="card-media">
+                  <ion-icon name="code-slash-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="card-title title-sm">Development</h3>
+
+                  <p class="body-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="card-container">
+              <div class="card card-md" style="background-color: hsl(221, 100%, 79%)">
+
+                <div class="card-media">
+                  <ion-icon name="shapes-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="card-title title-sm">Web Design</h3>
+
+                  <p class="body-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="card-container">
+              <div class="card card-md" style="background-color: hsl(19, 97%, 85%)">
+
+                <div class="card-media">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOZJREFUSEvtleERwUAQhb9UgArQARXQgRJQgRboQAeoQAtUQAeogA6YN3PJrBvcJZH4437tbPa9l7e7uSRUfJKK+fEFlsAI6BQUPgNrYJHirYDIZwWJfZgE5kpagRvQAPrA0SDuLvbdvsr3gAMgJ11fIA+RsFH19q2iAHmd1SqgvrVd7xTraJtOLm4BmlNM/pJuonWg9RoDO2DqiFbA0MUx+S2gQW+AiT/kJnD90ppmbt+tXlmdjPenAmXEoxz8VCAkHuXg06D/AsHPoHCLdB0MAvR7c32kpRb39Lz2f3KwN3kLKnfwACRpPhmYF5E3AAAAAElFTkSuQmCC"/>
+                </div>
+
+                <div>
+                  <h3 class="card-title title-sm">Digital Marketing</h3>
+
+                  <p class="body-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="card-container">
+              <div class="card card-md" style="background-color: hsl(76, 39%, 72%)">
+
+                <div class="card-media">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21 4H2v2h2.3l3.521 9.683A2.004 2.004 0 0 0 9.7 17H18v-2H9.7l-.728-2H18c.4 0 .762-.238.919-.606l3-7A.998.998 0 0 0 21 4z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg>
+                </div>
+
+                <div>
+                  <h3 class="card-title title-sm">E-Commerce</h3>
+
+                  <p class="body-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="card-container">
+              <div class="card card-md" style="background-color: hsl(245, 100%, 90%)">
+
+                <div class="card-media">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M19 2H6c-1.206 0-3 .799-3 3v14c0 2.201 1.794 3 3 3h15v-2H6.012C5.55 19.988 5 19.806 5 19c0-.101.009-.191.024-.273.112-.576.584-.717.988-.727H21V4a2 2 0 0 0-2-2zm0 9-2-1-2 1V4h4v7z"></path></svg>
+                </div>
+
+                <div>
+                  <h3 class="card-title title-sm">Business Planner</h3>
+
+                  <p class="body-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-pinterest"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+      <p class="text-center">&copy; 2023 copyright all right reserved</p>
+
+    </div>
+  </footer>
+
+
+
+
+
   <!-- 
     - custom js link
   -->
@@ -44,8 +279,10 @@
   <!-- 
     - ionicon
   -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>

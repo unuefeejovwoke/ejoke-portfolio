@@ -317,7 +317,11 @@ body.loaded { overflow: visible; }
   transition: var(--transition-1);
 }
 
-.header.active { box-shadow: var(--shadow); }
+.header.active { box-shadow: var(--shadow);
+
+}
+
+.header.active { background-color: var(--white); }
 
 .header .container {
   display: flex;

@@ -24,3 +24,14 @@ $(document).ready(function () {
         $(this).addClass("active-filter").siblings().removeClass("active-filter")
     });
 });
+
+/**
+ * PRELOADER
+ */
+
+const preloader = document.querySelector("[data-preloader]");
+
+window.addEventListener("load", function () {
+  preloader.classList.add("loaded");
+  document.body.classList.add("loaded");
+});
